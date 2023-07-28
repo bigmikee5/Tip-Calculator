@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,600;1,700&family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Exo", sans-serif;
+  color: #333;
+  background-image: linear-gradient(to bottom right, #3388cc, #57dda1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 1px 1px 13px rgb(0, 0, 0 / 10%);
+}
+
+h1 {
+  background-color: #31ba7e;
+  padding: 10px 0;
+  font-size: 28px;
+  border-radius: 18px;
+  font-style: italic;
+}
+
+.control {
+  margin: 25px 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid #31ba7e;
+  font-size: 20px;
+  margin-top: 29px;
+}
+
+select {
+  outline: none;
+  font-size: 15px;
+  color: rgb(130, 135, 130);
+  font-weight: light;
+  margin-top: 25px;
+  padding: 11px 24px;
+  border-radius: 24px;
+  border: 1px solid #31ba7e;
+  width: 65%;
+}
+
+button#calculate {
+  background-color: #31ba7e;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 14px 29px;
+  margin: 25px;
+  transition: all 0.3s ease-in;
+}
+
+button#calculate:hover {
+  cursor: pointer;
+  color: #31ba7e;
+  border-color: #31ba7e;
+  background-color: transparent;
+}
+
+.totalTip {
+  background-color: #31ba7e;
+  border-radius: 18px;
+  padding: 10px 0 30px;
+}
+
+p.tip {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
